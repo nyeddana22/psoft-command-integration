@@ -39,7 +39,7 @@ cd /path/to/your/project/
 2. Create a virtual environment named venv:
 
 ```
-python -m venv venv
+python3 -m venv venv
 ```
 
 This creates a folder named venv inside your project directory.
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 In the root directory of your project, create a file named .env. This file will contain your API key generated from Command in the following format:
 
 ```
-EXTENDED_API_TOKEN=your_api_key_here
+EXTENDED_API_TOKEN="your_api_key_here"
 ```
 
 This file is already added to .gitignore which will ensure your keys will remain local to your system.
@@ -94,7 +94,7 @@ vim ~/Library/LaunchAgents/com.verkada.api.plist
     <key>ProgramArguments</key>
     <array>
      <string>/path/to/python3.13/in/your/venv</string>
-     <string>/path/to/the /userSync.py/file/in/your/venv</string>
+     <string>/path/to/the/userSync.py/file/in/your/venv</string>
     </array>
 
     <key>WorkingDirectory</key>
