@@ -4,7 +4,7 @@
 
 ## Download the Code
 
-Download the code from the repository: https://github.com/nyeddana22/peoplesoft-verkada-integration
+Download the code from the repository: https://github.com/nyeddana22/psoft-command-integration
 
 ## Install python3 using Homebrew
 
