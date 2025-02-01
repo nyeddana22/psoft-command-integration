@@ -5,12 +5,12 @@ import csvProcessing
 import apiToken
 
 # Define file paths for CSV data and previously student IDs
-CSV_FILE = "venv/student_access.csv"
-PICKLE_FILE = "venv/student_ids.pkl"
+CSV_FILE = "student_access.csv"
+PICKLE_FILE = "student_ids.pkl"
 
 # Configure logging to store logs in a file
 logging.basicConfig(
-    filename="venv/logging.txt",
+    filename="logging.txt",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
